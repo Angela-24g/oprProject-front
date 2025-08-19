@@ -56,20 +56,36 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
+### 1. 개발환경
+- Nuxt 3.17.5
+- Vue 3.5.16
 
-# pnpm
-pnpm preview
+### 2. Dependency
+- [stomp-js]
+  + https://stomp-js.github.io/api-docs/latest/classes/Client.html 
+- [circle-progress]
+  + https://github.com/tigrr/circle-progress/
+- [VueUse]
+  + https://vueuse.org/
+- [chartjs]
+  + https://vue-chartjs.org/
+  + https://www.chartjs.org/
+- [vue3-openlayers]
+  + https://vue3openlayers.netlify.app/
+- [wowza-webrtc-player]
+  + https://github.com/koala-interactive/wowza-webrtc-player/
+- [hls.js]
+  + https://github.com/video-dev/hls.js/
+- [TanStackQuery]
+  + https://tanstack.com/query/latest/docs/framework/vue/examples/basic/
+  + https://tantandero.tistory.com/72/
+- [change-case]
+  + https://github.com/blakeembrey/change-case/
+- [Day.js]
+  + https://day.js.org/
+- [Swiper]
+  + https://swiperjs.com/
+- [lru-cache]
+  + https://github.com/isaacs/node-lru-cache
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
